@@ -7,6 +7,5 @@ The goal of this assignment was to create a simple calendar application that all
 This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. Moment.js library was used for date and time logic.  Past, current, and future time slots are each color coded gray, red, and green respectively.
 
 # Getting Started
-
-
+This project has been deployed to Github Pages. To run, follow the deployment link below.
 

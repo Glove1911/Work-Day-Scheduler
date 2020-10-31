@@ -10,4 +10,4 @@ This project has been deployed to Github Pages. To run, follow the deployment li
 
 [Deployed Application](https://glove1911.github.io/Work-Day-Scheduler/)
 
-<img src ="
+<img src ="https://github.com/Glove1911/Work-Day-Scheduler/blob/main/09FFA544-9624-4AFF-8F6B-9FFAE976CD14_1_105_c.jpeg">

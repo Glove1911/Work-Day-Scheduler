@@ -14,11 +14,12 @@ $(document).ready(function(){
        var time = $(this).parent().attr("id");
        localStorage.setItem(time,value);
     });
-
+// function to compare current hour to schedule time
     function compareHour(){
         var currentHour = moment().hours();
-        
+        console.log(currentHour);
         $(".time-block").each(function(){
+            // parses schedule time out as interger for comparison
             var schedTime = parseInt($(this).attr("id").split("-")[1]);
             console.log(schedTime);
         
@@ -28,12 +29,12 @@ $(document).ready(function(){
         }   
         else if (schedTime === currentHour){
           $(this).removeClass("past");
-          $(this).addClass(".present");  
+          $(this).addClass("present");  
         }   
         else {
             $(this).removeClass("past");
-            removeClass("present");
-            addClass("future");
+            $(this).removeClass("present");
+            $(this).addClass("future");
         }
 
         
@@ -60,3 +61,4 @@ $("#hr-16 .description").val(localStorage.getItem("hr-16"));
 $("#hr-17 .description").val(localStorage.getItem("hr-17"));
 
 });
+
